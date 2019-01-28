@@ -1,7 +1,27 @@
 .landing-page {
-  height: 1070px;
-  opacity: 0.4;
-  background-size: 2150px;
+  /* display: flex; */
+  height: 1000px;
+  opacity: 0.6;
+  background-size: 1750px;
   background-repeat: no-repeat;
-  background-image:  linear-gradient(to bottom right, rgba(27, 31, 45, 0.2), rgba(27, 31, 45, 0.2)), url("./image/landing-page.jpg");
+  background-image:  linear-gradient(to bottom right, rgba(27, 31, 45, 0.1), rgba(27, 31, 45, 0.1)), url("./image/landing-page.jpg");
+  font: black;
+}
+.columns1{
+  float: left;
+  border: solid;
+  background-color: white;
+  margin-top: 10em;
+  margin-left: 25em;
+  padding: 12.5em;
+  padding-bottom: 15em;
+}
+.columns2{
+  float: right;
+  border: solid;
+  background-color: white;
+  margin-top: 10em;
+  margin-right: 25em;
+  padding: 12.5em;
+  padding-bottom: 15em;
 }
