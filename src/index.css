@@ -1,11 +1,13 @@
 .landing-page {
-  height: 870px;
+  height: 970px;
+  /* max-width: 100%; */
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-image: linear-gradient(to bottom right, rgba(27, 31, 45, 0.2), rgba(27, 31, 45, 0.2)), url("./image/landing-page.jpg");
   font: black;
+
 }
 .columns1{
   float: left;

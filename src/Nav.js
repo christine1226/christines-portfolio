@@ -1,15 +1,14 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 
-export default class Nav extends React.Component{
-
-
+class Nav extends React.Component{
   render(){
     return(
       <div>
         <div className="ui secondary pointing menu">
           <div>
             <div className="ui simple dropdown item">
-              Menu
+              Home
               <div className="menu">
                 <div className="item">Bio</div>
                 <div className="item">Projects</div>
@@ -36,3 +35,4 @@ export default class Nav extends React.Component{
     )
   }
 }
+export default withRouter(Nav)
