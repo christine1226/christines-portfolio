@@ -6,6 +6,7 @@ import { Route, BrowserRouter as Router} from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 import AboutMe from './MainPages/AboutMe'
 import LandingPage from './MainPages/Landing'
+import Projects from './MainPages/Projects'
 
 
 const routing = (
@@ -13,6 +14,7 @@ const routing = (
     <div>
       <Route exact path="/" component={LandingPage} />
       <Route path="/about" component={AboutMe} />
+      <Route path="/projects" component={Projects} />
     </div>
   </Router>
 )

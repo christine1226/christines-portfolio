@@ -6,7 +6,7 @@ class AboutMe extends React.Component{
     return(
       <div>
       <Nav />
-        <div>
+        <div className="about-me">
           <div className="columns1">
             <h2>Christine Gomez</h2>
             <p>missing image</p>

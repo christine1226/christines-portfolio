@@ -7,7 +7,14 @@
   background-size: cover;
   background-image: linear-gradient(to bottom right, rgba(27, 31, 45, 0.2), rgba(27, 31, 45, 0.2)), url("./image/landing-page.jpg");
   font: black;
-
+}
+.about-me{
+  height:970px;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: tan;
+  font: black;
 }
 .columns1{
   float: left;

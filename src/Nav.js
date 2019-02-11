@@ -2,16 +2,18 @@ import React from 'react'
 import { withRouter } from 'react-router-dom'
 
 class Nav extends React.Component{
+
   render(){
     return(
       <div>
         <div className="ui secondary pointing menu">
           <div>
             <div className="ui simple dropdown item">
-              Home
+              Menu
               <div className="menu">
-                <div className="item">Bio</div>
-                <div className="item">Projects</div>
+                <a className="item" href="/">Homepage</a>
+                <a className="item" href="/about">Bio</a>
+                <a className="item" href="/projects">Projects</a>
                 <div className="item">Contact</div>
               </div>
             </div>
