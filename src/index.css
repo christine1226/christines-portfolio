@@ -13,7 +13,7 @@
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  background-color: tan;
+  background-color: #d8cbb1;
   font: black;
 }
 .columns1{
@@ -36,4 +36,41 @@
 }
 .item{
   padding: 12em;
+}
+.proj1{
+  width: 22%;
+  height: 35%;
+  margin-left: 35px;
+  display: inline-block;
+  border: solid;
+  margin-top: 170px;
+  box-shadow: 2px 3px white;
+}
+.blink{
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./image/blink.png");
+  border: solid;
+}
+.sea{
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./image/sea.png");
+  border: solid;
+}
+.lit{
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./image/lit.png");
+  border: solid;
+}
+.boozer{
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./image/boozer.png");
+  border: solid;
 }
