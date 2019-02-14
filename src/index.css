@@ -1,6 +1,5 @@
 .landing-page {
   height: 970px;
-  /* max-width: 100%; */
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
@@ -13,12 +12,24 @@
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #d8cbb1;
+  /* border: solid; */
+  /* border-color: yellow; */
+  background-color: #d8d6d2;
   font: black;
+}
+.about-me h1{
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 55px;
+  font-weight: bold;
+  font-size: 75px;
+  color: gray;
+  /* background-color: white; */
 }
 .columns1{
   float: left;
   border: solid;
+  border-color: #f4e216;
   background-color: white;
   margin-top: 12em;
   margin-left: 20em;
@@ -28,6 +39,7 @@
 .columns2{
   float: right;
   border: solid;
+  border-color: yellow;
   background-color: white;
   margin-top: 12em;
   margin-right: 20em;
@@ -43,34 +55,49 @@
   margin-left: 35px;
   display: inline-block;
   border: solid;
-  margin-top: 170px;
-  box-shadow: 2px 3px white;
+  border-color: rgba(245, 249, 7, .5);
+  margin-top: 110px;
+  transition: 0.2s;
+  text-align: center;
+  border-radius: 3%;
+  background-color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.proj1:hover{
+  border-color: gray;
+  box-shadow: 4px 4px white;
+  color: yellow;
+  font-size: 17px;
+  text-align: center;
+  background-color: gray;
 }
 .blink{
-  height: 100%;
+  height: 95%;
   background-position: center center;
   background-size: cover;
   background-image: url("./image/blink.png");
-  border: solid;
+  border-radius: 3%;
 }
 .sea{
-  height: 100%;
+  height: 95%;
   background-position: center center;
   background-size: cover;
   background-image: url("./image/sea.png");
-  border: solid;
+  border-radius: 3%;
 }
 .lit{
-  height: 100%;
+  height: 95%;
   background-position: center center;
   background-size: cover;
   background-image: url("./image/lit.png");
-  border: solid;
+  border-radius: 3%;
 }
 .boozer{
-  height: 100%;
+  height: 95%;
   background-position: center center;
   background-size: cover;
   background-image: url("./image/boozer.png");
-  border: solid;
+  border-radius: 3%;
 }
