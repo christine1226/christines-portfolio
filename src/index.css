@@ -40,20 +40,6 @@
   font-size: 20px;
   color: gray;
 }
-.form textarea{
-  box-shadow: 4px 4px rgba(245, 249, 7, .5);
-  height: 250px;
-  width: 35em;
-  border-color: yellow;
-  margin-left: 13em;
-  margin-top: 2em;
-}
-.form input{
-  width: 20em;
-  height: 2em;
-  margin-left: 4em;
-  border-color: yellow;
-}
 .columns1{
   float: left;
   border: solid;
@@ -61,17 +47,22 @@
   background-color: white;
   margin-top: 12em;
   margin-left: 25em;
-  padding: 6.6em;
+  /* padding: 6.6em; */
   padding-right: 10em;
-  padding-left: 11em;
+  padding-left: 10em;
 }
-.columns1 h2{
+.columns1 h1{
+  padding-top: 1.5em;
+  margin-bottom: .5em;
   font-family: 'Open Sans Condensed', sans-serif;
+  color: gray;
   text-align: center;
+  font-size: 35px;
 }
 .columns1 img{
-  border-radius: 5%;
+  /* border-radius: 5%; */
   align-items: center;
+  margin-bottom: 6em;
 }
 .columns2{
   float: right;
@@ -81,8 +72,9 @@
   margin-top: 12em;
   margin-right: 19em;
   padding: 3.4em;
-  padding-bottom: 13.8em;
+  padding-bottom: 12.5em;
   text-align: center;
+  color: gray;
 }
 .item{
   padding: 12em;
@@ -97,7 +89,7 @@
   margin-top: 110px;
   transition: 0.2s;
   text-align: center;
-  border-radius: 3%;
+  /* border-radius: 3%; */
   background-color: white;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 16px;
@@ -116,28 +108,28 @@
   background-position: center center;
   background-size: cover;
   background-image: url("./image/blink.png");
-  border-radius: 3%;
+  /* border-radius: 3%; */
 }
 .sea{
   height: 95%;
   background-position: center center;
   background-size: cover;
   background-image: url("./image/sea.png");
-  border-radius: 3%;
+  /* border-radius: 3%; */
 }
 .lit{
   height: 95%;
   background-position: center center;
   background-size: cover;
   background-image: url("./image/lit.png");
-  border-radius: 3%;
+  /* border-radius: 3%; */
 }
 .boozer{
   height: 95%;
   background-position: center center;
   background-size: cover;
   background-image: url("./image/boozer.png");
-  border-radius: 3%;
+  /* border-radius: 3%; */
 }
 .form{
   width: 54%;
@@ -148,4 +140,44 @@
   background-color: white;
   border: solid;
   border-color: yellow;
+}
+.form textarea{
+  /* box-shadow: 4px 4px rgba(245, 249, 7, .5); */
+  height: 250px;
+  width: 35em;
+  margin-left: 13em;
+  margin-top: 2em;
+}
+textarea:focus{
+  outline: 2px solid yellow;
+}
+.form input{
+  width: 20em;
+  height: 2em;
+  margin-left: 1em;
+}
+input:focus{
+  outline: 2px solid yellow;
+}
+.form button{
+  margin-top: 1em;
+  margin-left: 20em;
+  margin-bottom: 1em;
+  background-color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: gray;
+  border: solid;
+  border-color: gray;
+  border-width: thin;
+}
+button:focus{
+  outline: 1px solid yellow;
+}
+.ui.simple.dropdown.item{
+  color: gray;
+}
+.item:hover{
+  color: yellow;
 }

@@ -9,9 +9,10 @@ export default class Contact extends React.Component{
         <div className="about-me">
           <div className="form">
             <h2>Contact Me</h2>
-            <label>E-mail</label>
+            <label>E-mail:</label>
             <input></input>
             <textarea></textarea>
+            <br />
             <button>Submit</button>
           </div>
         </div>

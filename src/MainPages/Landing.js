@@ -8,10 +8,11 @@ export default class LandingPage extends React.Component{
       <Nav />
         <div className="landing-page">
           <div className="columns1">
-            <h2>Christine Gomez</h2>
-            <img src={ require("../image/selfie.png")} height="220px" width="170px" alt="" />
+            <h1>Christine Gomez</h1>
+            <img src={ require("../image/selfie.png")} height="250px" width="200px" alt="" />
           </div>
           <div className="columns2">
+            <br/>
             <br/>
             <br/>
             <br/>
