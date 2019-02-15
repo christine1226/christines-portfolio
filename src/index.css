@@ -10,10 +10,10 @@
 .about-me{
   height:970px;
   background-position: center center;
+  background-repeat:  no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  /* border: solid; */
-  /* border-color: yellow; */
+  background-image: linear-gradient(to bottom right, rgba(27, 31, 45, 0.2), rgba(27, 31, 45, 0.2)), url("./image/landing-page.jpg");
   background-color: #d8d6d2;
   font: black;
 }
@@ -23,18 +23,55 @@
   padding-top: 55px;
   font-weight: bold;
   font-size: 75px;
+  color: yellow;
+}
+.about-me h2{
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 55px;
+  font-weight: bold;
+  font-size: 75px;
   color: gray;
-  /* background-color: white; */
+}
+.about-me label{
+  margin-left: 12em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: gray;
+}
+.form textarea{
+  box-shadow: 4px 4px rgba(245, 249, 7, .5);
+  height: 250px;
+  width: 35em;
+  border-color: yellow;
+  margin-left: 13em;
+  margin-top: 2em;
+}
+.form input{
+  width: 20em;
+  height: 2em;
+  margin-left: 4em;
+  border-color: yellow;
 }
 .columns1{
   float: left;
   border: solid;
-  border-color: #f4e216;
+  border-color: yellow;
   background-color: white;
   margin-top: 12em;
-  margin-left: 20em;
-  padding: 12.5em;
-  padding-bottom: 15em;
+  margin-left: 25em;
+  padding: 6.6em;
+  padding-right: 10em;
+  padding-left: 11em;
+}
+.columns1 h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+.columns1 img{
+  border-radius: 5%;
+  align-items: center;
 }
 .columns2{
   float: right;
@@ -42,9 +79,10 @@
   border-color: yellow;
   background-color: white;
   margin-top: 12em;
-  margin-right: 20em;
-  padding: 3.5em;
-  padding-bottom: 17.7em;
+  margin-right: 19em;
+  padding: 3.4em;
+  padding-bottom: 13.8em;
+  text-align: center;
 }
 .item{
   padding: 12em;
@@ -100,4 +138,14 @@
   background-size: cover;
   background-image: url("./image/boozer.png");
   border-radius: 3%;
+}
+.form{
+  width: 54%;
+  height: 55%;
+  float: left;
+  margin-left: 26em;
+  margin-top: 8em;
+  background-color: white;
+  border: solid;
+  border-color: yellow;
 }

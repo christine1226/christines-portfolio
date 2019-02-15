@@ -12,7 +12,6 @@ class Nav extends React.Component{
               Menu
               <div className="menu">
                 <a className="item" href="/">Homepage</a>
-                <a className="item" href="/about">Bio</a>
                 <a className="item" href="/projects">Projects</a>
                 <a className="item" href="/contact">Contact</a>
               </div>

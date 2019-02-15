@@ -7,7 +7,13 @@ export default class Contact extends React.Component{
       <div>
         <Nav />
         <div className="about-me">
-          <h2>Contact</h2>
+          <div className="form">
+            <h2>Contact Me</h2>
+            <label>E-mail</label>
+            <input></input>
+            <textarea></textarea>
+            <button>Submit</button>
+          </div>
         </div>
       </div>
     )
