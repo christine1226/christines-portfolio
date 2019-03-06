@@ -6,7 +6,12 @@
   background-size: cover;
   background-image: linear-gradient(to bottom right, rgba(27, 31, 45, 0.2), rgba(27, 31, 45, 0.2)), url("./image/landing-page.jpg");
   font: black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 2em;
+  grid-auto-rows: 700px;
 }
+
 .about-me{
   height:970px;
   background-position: center center;
@@ -41,31 +46,28 @@
   color: gray;
 }
 .columns1{
-  float: left;
   border: solid;
   border-color: yellow;
   background-color: white;
   margin-top: 12em;
-  margin-left: 25em;
-  /* padding: 6.6em; */
+  margin-left: 19em;
   padding-right: 10em;
   padding-left: 10em;
 }
 .columns1 h1{
   padding-top: 1.5em;
-  margin-bottom: .5em;
+  margin-bottom: 1em;
   font-family: 'Open Sans Condensed', sans-serif;
   color: gray;
   text-align: center;
   font-size: 35px;
 }
 .columns1 img{
-  /* border-radius: 5%; */
-  align-items: center;
-  margin-bottom: 6em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .columns2{
-  float: right;
   border: solid;
   border-color: yellow;
   background-color: white;
@@ -97,7 +99,6 @@
 }
 .proj1:hover{
   border-color: gray;
-  box-shadow: 4px 4px white;
   color: yellow;
   font-size: 17px;
   text-align: center;

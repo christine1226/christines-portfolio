@@ -7,6 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import LandingPage from './MainPages/Landing'
 import Projects from './MainPages/Projects'
 import Contact from './MainPages/Contact'
+import DisplayProject from './MainPages/DisplayProject'
 
 
 const routing = (
@@ -15,6 +16,7 @@ const routing = (
       <Route exact path="/" component={LandingPage} />
       <Route path="/projects" component={Projects} />
       <Route path="/contact" component={Contact} />
+      <Route path="/project" component={DisplayProject} />
     </div>
   </Router>
 )
