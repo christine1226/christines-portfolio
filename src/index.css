@@ -182,3 +182,28 @@ button:focus{
 .item:hover{
   color: yellow;
 }
+.proj-container{
+  height: 970px;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(to bottom right, rgba(27, 31, 45, 0.2), rgba(27, 31, 45, 0.2)), url("./image/landing-page.jpg");
+}
+.proj-container{
+  text-align: center;
+  padding: 2em;
+}
+.proj-container h1{
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.proj-container p{
+  text-align: center;
+  padding-top: 1em;
+}
+.vid iframe{
+  border: solid;
+  border-color: yellow;
+}
