@@ -3,14 +3,16 @@ import Nav from '../Nav'
 import {withRouter} from 'react-router'
 
   class Projects extends React.Component{
+
     projectClicked = (e) => {
       if(e.target.className === "blink"){
         this.props.history.push(
           {pathname: '/project',
           id: 1,
-          title: 'Bink',
+          title: 'Blink',
           vid: '',
           info: "This is what blink is about",
+          technologies: ['Vanilla JS', 'CSS', 'Backend: Ruby on Rails'],
           github: 'https://github.com/christine1226/mod3_project'})
       }
       else if(e.target.className === "sea"){
@@ -20,6 +22,7 @@ import {withRouter} from 'react-router'
           title: 'Sea Learner',
           vid: 'https://www.youtube.com/embed/y-aZkFSJ6pU',
           info: "This is what sea learners is about",
+          technologies: ['Redux', 'React', 'CSS', 'Semantic UI', 'Speech Recognition Webkit', 'Speech Synthesis Webkit', 'Backend: Ruby on Rails'],
           github: 'https://github.com/christine1226/SeaCards'})
       }
       else if(e.target.className === "lit"){
@@ -29,6 +32,7 @@ import {withRouter} from 'react-router'
           title: 'NYC Event Manager (Lituation)',
           vid: 'https://www.youtube.com/embed/C_GogFbJeCc',
           info: "This is what Lituation is about",
+          technologies: ['Ruby', 'CSS', 'Backend: Ruby on Rails'],
           github: 'https://github.com/christine1226/lituation'})
       }
       else if(e.target.className === "boozer"){
@@ -38,6 +42,7 @@ import {withRouter} from 'react-router'
           title: 'Boozer',
           vid: '',
           info: "This is what Boozer is about",
+          technologies: ['React', 'CSS', 'Semantic UI', 'Backend: Ruby on Rails'],
           github: 'https://github.com/christine1226/boozer-react'})
       }
     }
