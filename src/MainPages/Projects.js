@@ -7,6 +7,7 @@ import {withRouter} from 'react-router'
       if(e.target.className === "blink"){
         this.props.history.push(
           {pathname: '/project',
+          id: 1,
           title: 'Bink',
           vid: '',
           info: "This is what blink is about",
@@ -15,6 +16,7 @@ import {withRouter} from 'react-router'
       else if(e.target.className === "sea"){
         this.props.history.push(
           {pathname: '/project',
+          id: 2,
           title: 'Sea Learner',
           vid: 'https://www.youtube.com/embed/y-aZkFSJ6pU',
           info: "This is what sea learners is about",
@@ -23,6 +25,7 @@ import {withRouter} from 'react-router'
       else if(e.target.className === "lit"){
         this.props.history.push(
           {pathname: '/project',
+          id: 3,
           title: 'NYC Event Manager (Lituation)',
           vid: 'https://www.youtube.com/embed/C_GogFbJeCc',
           info: "This is what Lituation is about",
@@ -31,6 +34,7 @@ import {withRouter} from 'react-router'
       else if(e.target.className === "boozer"){
         this.props.history.push(
           {pathname: '/project',
+          id: 4,
           title: 'Boozer',
           vid: '',
           info: "This is what Boozer is about",

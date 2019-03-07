@@ -12,6 +12,7 @@
   grid-auto-rows: 700px;
 }
 
+
 .about-me{
   height:970px;
   background-position: center center;
@@ -137,7 +138,7 @@
   height: 55%;
   float: left;
   margin-left: 26em;
-  margin-top: 8em;
+  margin-top: 10em;
   background-color: white;
   border: solid;
   border-color: yellow;
@@ -204,6 +205,17 @@ button:focus{
   padding-top: 1em;
 }
 .vid iframe{
+  text-align: center;
   border: solid;
   border-color: yellow;
+}
+.proj-container > img:nth-child(even){
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  margin: 2em;
+  margin-left: -1em;
 }
