@@ -7,7 +7,7 @@
   background-image: linear-gradient(to bottom right, rgba(27, 31, 45, 0.2), rgba(27, 31, 45, 0.2)), url("./image/background.jpg");
   font: black;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 45% 55%;
   /* grid-gap: 2em; */
   grid-auto-rows: 700px;
 }
@@ -51,9 +51,9 @@
   border-color: white;
   background-color: #f9d6ed;
   margin-top: 12em;
-  margin-left: 20em;
+  margin-left: 21em;
   padding-right: 10em;
-  padding-left: 10em;
+  padding-left: 9em;
 }
 
 /* #F2D9F7 */
@@ -221,4 +221,21 @@ button:focus{
   -ms-filter: "FlipH";
   margin: 2em;
   margin-left: -1em;
+}
+
+.ui.secondary.pointing.menu{
+height: 55px!important;
+}
+.ui.secondary.pointing.menu a{
+  font-size: 15px;
+  color: pink!important;
+}
+.ui.secondary.pointing.menu a:hover{
+  color: #f9d6ed!important;
+}
+.form a{
+  height: 10px;
+  width: 50px;
+  display: inline;
+  color: pink;
 }
