@@ -50,7 +50,7 @@ import {withRouter} from 'react-router'
     return(
       <div>
         <Nav />
-        <div className="about-me">
+        <div className="projects">
           <h1>Projects</h1>
           <div className="proj1">
             <div onClick={this.projectClicked} className="blink"></div>

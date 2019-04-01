@@ -6,9 +6,11 @@ export default class LandingPage extends React.Component{
     return(
       <div>
       <Nav />
-        <div className="landing-page">
+      <div className="landing-page">
+      <h1>About Me....</h1>
+      <div className="about">
           <div className="columns1">
-            <h1>Christine Gomez</h1>
+            <h2>Christine Gomez</h2>
             <img src={ require("../image/selfie.png")} height="250px" width="200px" alt="" />
           </div>
           <div className="columns2">
@@ -22,6 +24,7 @@ export default class LandingPage extends React.Component{
             <p> web development industry, very excited to push limits and create</p>
             <p> bigger projects in a dev team.</p>
           </div>
+        </div>
         </div>
       </div>
     )

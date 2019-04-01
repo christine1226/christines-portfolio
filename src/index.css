@@ -1,3 +1,4 @@
+/* About me Page */
 .landing-page {
   height: 970px;
   background-position: center center;
@@ -6,48 +7,27 @@
   background-size: cover;
   background-image: linear-gradient(to bottom right, rgba(27, 31, 45, 0.2), rgba(27, 31, 45, 0.2)), url("./image/background.jpg");
   font: black;
+}
+/* About me page header*/
+.landing-page h1{
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  color: #f9d6ed;
+  margin-bottom: -2.5em;
+  padding-top: 2em;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/* grid on about me page and additional specifications for columns*/
+.about{
   display: grid;
   grid-template-columns: 45% 55%;
   /* grid-gap: 2em; */
   grid-auto-rows: 700px;
 }
-
-
-.about-me{
-  height:970px;
-  background-position: center center;
-  background-repeat:  no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-image: linear-gradient(to bottom right, rgba(27, 31, 45, 0.5), rgba(27, 31, 45, 0.5)), url("./image/landing-page.jpg");
-  background-color: #d8d6d2;
-  font: black;
-}
-.about-me h1{
-  text-align: center;
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 55px;
-  font-weight: bold;
-  font-size: 75px;
-  color: yellow;
-}
-.about-me h2{
-  text-align: center;
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 55px;
-  font-weight: bold;
-  font-size: 75px;
-  color: gray;
-}
-.about-me label{
-  margin-left: 12em;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  color: gray;
-}
 .columns1{
   border: solid;
+  border-width: 8px;
   border-color: white;
   background-color: #f9d6ed;
   margin-top: 12em;
@@ -56,9 +36,7 @@
   padding-left: 9em;
 }
 
-/* #F2D9F7 */
-/* #DCB7C9 */
-.columns1 h1{
+.columns1 h2{
   padding-top: 1.5em;
   margin-bottom: 1em;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -82,87 +60,117 @@
   text-align: center;
   color: gray;
 }
-.item{
-  padding: 12em;
+
+/* background for project and contact component */
+.projects{
+  height:970px;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(to bottom right, rgba(27, 31, 45, 0.5), rgba(27, 31, 45, 0.5)), url("./image/background.jpg");
+  background-color: #d8d6d2;
+  font: black;
 }
+/* Project headers and labels*/
+.projects h1{
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 55px;
+  font-weight: bold;
+  font-size: 75px;
+  color: #f9d6ed;
+}
+.projects h2{
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 55px;
+  font-weight: bold;
+  font-size: 75px;
+  color: #f9d6ed;
+}
+
+/*project squares */
 .proj1{
   width: 22%;
   height: 35%;
   margin-left: 35px;
   display: inline-block;
   border: solid;
-  border-color: rgba(245, 249, 7, .5);
+  border-color: #f9d6ed;
   margin-top: 110px;
   transition: 0.2s;
   text-align: center;
-  /* border-radius: 3%; */
   background-color: white;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 16px;
   font-weight: bold;
 }
 .proj1:hover{
-  border-color: gray;
-  color: yellow;
+  border-color: #1F1F3B;
+  color: #f9d6ed;
   font-size: 17px;
   text-align: center;
-  background-color: gray;
+  background-color: #1F1F3B;
 }
 .blink{
   height: 95%;
   background-position: center center;
   background-size: cover;
   background-image: url("./image/blink.png");
-  /* border-radius: 3%; */
 }
 .sea{
   height: 95%;
   background-position: center center;
   background-size: cover;
   background-image: url("./image/sea.png");
-  /* border-radius: 3%; */
 }
 .lit{
   height: 95%;
   background-position: center center;
   background-size: cover;
   background-image: url("./image/lit.png");
-  /* border-radius: 3%; */
 }
 .boozer{
   height: 95%;
   background-position: center center;
   background-size: cover;
   background-image: url("./image/boozer.png");
-  /* border-radius: 3%; */
 }
+
+/* form on contact page*/
 .form{
   width: 54%;
   height: 55%;
+  /* width: 63em;
+  height: 38em; */
   float: left;
   margin-left: 26em;
   margin-top: 10em;
   background-color: white;
   border: solid;
-  border-color: yellow;
+  border-color: #f9d6ed;
 }
 .form textarea{
-  /* box-shadow: 4px 4px rgba(245, 249, 7, .5); */
-  height: 250px;
-  width: 35em;
+  height: 48%;
+  width: 55%;
+  color: #805B84;
   margin-left: 13em;
   margin-top: 2em;
+  border-color: #f9d6ed;
 }
 textarea:focus{
-  outline: 2px solid yellow;
+  outline: 2px solid #6B6ECF;
 }
 .form input{
   width: 20em;
-  height: 2em;
+  height: 5%;
+  color: #805B84;
   margin-left: 1em;
+  border-color: #f9d6ed;
 }
 input:focus{
-  outline: 2px solid yellow;
+  outline: 2px solid #6B6ECF;
 }
 .form button{
   margin-top: 1em;
@@ -172,27 +180,32 @@ input:focus{
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
   font-size: 20px;
-  color: gray;
+  color: #f9d6ed;
   border: solid;
-  border-color: gray;
+  border-color: #f9d6ed;
   border-width: thin;
 }
 button:focus{
-  outline: 1px solid yellow;
+  outline: 1px solid #6B6ECF;
+  color: #6B6ECF;
 }
-.ui.simple.dropdown.item{
-  color: gray;
+
+.projects label{
+  margin-left: 12em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #f9d6ed;
 }
-.item:hover{
-  color: yellow;
-}
+
+/* individual project display page*/
 .proj-container{
   height: 970px;
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-image: linear-gradient(to bottom right, rgba(27, 31, 45, 0.2), rgba(27, 31, 45, 0.2)), url("./image/landing-page.jpg");
+  background-image: linear-gradient(to bottom right, rgba(27, 31, 45, 0.2), rgba(27, 31, 45, 0.2)), url("./image/background.jpg");
 }
 .proj-container{
   text-align: center;
@@ -202,16 +215,24 @@ button:focus{
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
+  color: #f9d6ed;
 }
 .proj-container p{
   text-align: center;
   padding-top: 1em;
+  color: #f9d6ed;
 }
+/* project video */
 .vid iframe{
   text-align: center;
   border: solid;
-  border-color: yellow;
+  border-color: #f9d6ed;
 }
+.proj-container a {
+  color: pink;
+}
+
+/* arrows to get through each project page*/
 .proj-container > img:nth-child(even){
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
@@ -223,19 +244,23 @@ button:focus{
   margin-left: -1em;
 }
 
+/*Nav bar colors and adjustments*/
 .ui.secondary.pointing.menu{
-height: 55px!important;
+height: 50px!important;
 }
 .ui.secondary.pointing.menu a{
   font-size: 15px;
-  color: pink!important;
-}
-.ui.secondary.pointing.menu a:hover{
   color: #f9d6ed!important;
 }
+.ui.secondary.pointing.menu a:hover{
+  color: pink!important;
+}
 .form a{
-  height: 10px;
-  width: 50px;
+  margin-left: 4.5em;
+  font-size: 30px;
   display: inline;
-  color: pink;
+  color: #f9d6ed!important;
+}
+.form a:hover{
+  color: pink!important;
 }
