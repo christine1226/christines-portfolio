@@ -1,15 +1,14 @@
 /* About me Page */
-.landing-page {
+.about-page {
   height: 970px;
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-image: linear-gradient(to bottom right, rgba(27, 31, 45, 0.2), rgba(27, 31, 45, 0.2)), url("./image/background.jpg");
-  font: black;
 }
 /* About me page header*/
-.landing-page h1{
+.about-page h1{
   font-size: 4em;
   font-weight: bold;
   text-align: center;
@@ -263,4 +262,72 @@ height: 50px!important;
 }
 .form a:hover{
   color: pink!important;
+}
+
+/*Landing page layout*/
+.landing-page {
+  height: 970px;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(to bottom right, rgba(27, 31, 45, 0.2), rgba(27, 31, 45, 0.2)), url("./image/background.jpg");
+}
+
+.links{
+  /* margin-top: 10%; */
+  margin-left: 25%;
+}
+.links a{
+  /* margin-left: 8.5em; */
+  font-size: 30px;
+  display: inline;
+  color: #f9d6ed!important;
+}
+
+.links a:hover{
+  color: pink!important;
+}
+
+.landing-page h1{
+  font-size: 4em;
+  font-weight: bold;
+  color: #f9d6ed;
+  padding-top: 15%;
+  padding-left: 25%;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.landing-page h3{
+  /* padding-top: 8%; */
+  margin-bottom: 1em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  padding-left: 25%;
+  font-size: 35px;
+}
+
+
+
+
+
+
+
+
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
 }

@@ -16,7 +16,7 @@ export default class Contact extends React.Component{
             <textarea name="message"></textarea>
             <br />
             <button value='Send'>Submit</button>
-            <div className="links">
+            <div>
             <a href="https://www.linkedin.com/in/christine-gomez/" className="link">
             <i className="linkedin icon"></i>
             </a>
