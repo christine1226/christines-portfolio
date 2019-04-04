@@ -8,6 +8,7 @@ import AboutMe from './MainPages/AboutMe'
 import Projects from './MainPages/Projects'
 import Contact from './MainPages/Contact'
 import DisplayProject from './MainPages/DisplayProject'
+import NoRoute from './MainPages/NoRoute'
 
 
 const routing = (
@@ -18,6 +19,7 @@ const routing = (
       <Route path="/projects" component={Projects} />
       <Route path="/contact" component={Contact} />
       <Route path="/project" component={DisplayProject} />
+      <Route component={NoRoute} />
     </div>
   </Router>
 )

@@ -11,6 +11,7 @@ export default class DisplayProject extends React.Component{
         title: 'Sea Learner',
         vid: 'https://www.youtube.com/embed/y-aZkFSJ6pU',
         info: "This is what sea learners is about",
+        technologies: ['Redux', 'React', 'CSS', 'Semantic UI', 'Speech Recognition Webkit', 'Speech Synthesis Webkit', 'Backend: Ruby on Rails'],
         github: 'https://github.com/christine1226/SeaCards'})
     }
     else if(n === 2){
@@ -20,6 +21,7 @@ export default class DisplayProject extends React.Component{
         title: 'NYC Event Manager (Lituation)',
         vid: 'https://www.youtube.com/embed/C_GogFbJeCc',
         info: "This is what Lituation is about",
+        technologies: ['Ruby', 'CSS', 'Backend: Ruby on Rails'],
         github: 'https://github.com/christine1226/lituation'})
     }
     else if(n === 3){
@@ -29,6 +31,7 @@ export default class DisplayProject extends React.Component{
         title: 'Boozer',
         vid: '../image/boozer.png',
         info: "This is what Boozer is about",
+        technologies: ['React', 'CSS', 'Semantic UI', 'Backend: Ruby on Rails'],
         github: 'https://github.com/christine1226/boozer-react'})
     }
   }
@@ -42,6 +45,7 @@ export default class DisplayProject extends React.Component{
         title: 'Bink',
         vid: '../image/blink.png',
         info: "This is what blink is about",
+        technologies: ['Vanilla JS', 'CSS', 'Backend: Ruby on Rails'],
         github: 'https://github.com/christine1226/mod3_project'})
     }
     else if(n === 3){
@@ -51,6 +55,7 @@ export default class DisplayProject extends React.Component{
         title: 'Sea Learner',
         vid: 'https://www.youtube.com/embed/y-aZkFSJ6pU',
         info: "This is what sea learners is about",
+        technologies: ['Redux', 'React', 'CSS', 'Semantic UI', 'Speech Recognition Webkit', 'Speech Synthesis Webkit', 'Backend: Ruby on Rails'],
         github: 'https://github.com/christine1226/SeaCards'})
     }
     else if(n === 4){
@@ -60,6 +65,7 @@ export default class DisplayProject extends React.Component{
         title: 'NYC Event Manager (Lituation)',
         vid: 'https://www.youtube.com/embed/C_GogFbJeCc',
         info: "This is what Lituation is about",
+        technologies: ['Ruby', 'CSS', 'Backend: Ruby on Rails'],
         github: 'https://github.com/christine1226/lituation'})
     }
   }
@@ -76,10 +82,10 @@ export default class DisplayProject extends React.Component{
         <p>{this.props.location.info}</p>
         <a href={this.props.location.github}>Github Link</a>
         <br/>
-        <img alt='' height='20' width='20' onClick={this.prevPage}
-        src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Yellow_Arrow_Right.svg/2000px-Yellow_Arrow_Right.svg.png' />
-        <img alt='' height='20' width='20' onClick={this.nextPage}
-        src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Yellow_Arrow_Right.svg/2000px-Yellow_Arrow_Right.svg.png' />
+        <img alt='' height='100' width='100' onClick={this.prevPage}
+        src='https://media.giphy.com/media/9DctaP97smX4SyYjwR/giphy.gif' />
+        <img alt='' height='100' width='100' onClick={this.nextPage}
+        src='https://media.giphy.com/media/9DctaP97smX4SyYjwR/giphy.gif' />
         </div>
       </div>
     )

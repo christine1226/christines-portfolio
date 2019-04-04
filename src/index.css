@@ -9,13 +9,22 @@
 }
 /* About me page header*/
 .about-page h1{
-  font-size: 4em;
+  font-size: 5em;
   font-weight: bold;
   text-align: center;
   color: #f9d6ed;
-  margin-bottom: -2.5em;
-  padding-top: 2em;
+  margin-bottom: -1.5em;
+  padding-top: 1em;
   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.about-page a{
+  color:white;
+  text-decoration: underline;
+}
+.about-page a:hover{
+  color: #f9d6ed;
+  text-decoration: underline;
 }
 /* grid on about me page and additional specifications for columns*/
 .about{
@@ -75,7 +84,7 @@
 .projects h1{
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 55px;
+  padding-top: 80px;
   font-weight: bold;
   font-size: 75px;
   color: #f9d6ed;
@@ -239,8 +248,7 @@ button:focus{
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
-  margin: 2em;
-  margin-left: -1em;
+  margin-right: 2em;
 }
 
 /*Nav bar colors and adjustments*/
@@ -252,7 +260,7 @@ height: 50px!important;
   color: #f9d6ed!important;
 }
 .ui.secondary.pointing.menu a:hover{
-  color: pink!important;
+  color: #1F1F3B!important;
 }
 .form a{
   margin-left: 4.5em;
@@ -261,11 +269,12 @@ height: 50px!important;
   color: #f9d6ed!important;
 }
 .form a:hover{
-  color: pink!important;
+  color: #1F1F3B!important;
 }
 
 /*Landing page layout*/
 .landing-page {
+  overflow: auto;
   height: 970px;
   background-position: center center;
   background-repeat:  no-repeat;
@@ -275,59 +284,42 @@ height: 50px!important;
 }
 
 .links{
-  /* margin-top: 10%; */
-  margin-left: 25%;
+  margin-left: 20%;
 }
 .links a{
-  /* margin-left: 8.5em; */
   font-size: 30px;
   display: inline;
   color: #f9d6ed!important;
 }
 
 .links a:hover{
-  color: pink!important;
+  color: #1F1F3B!important;
 }
 
 .landing-page h1{
-  font-size: 4em;
+  font-size: 5em;
   font-weight: bold;
   color: #f9d6ed;
   padding-top: 15%;
-  padding-left: 25%;
+  padding-left: 20%;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .landing-page h3{
-  /* padding-top: 8%; */
-  margin-bottom: 1em;
+  margin-bottom: .5em;
   font-family: 'Open Sans Condensed', sans-serif;
   color: white;
-  padding-left: 25%;
+  padding-left: 20%;
   font-size: 35px;
 }
 
-
-
-
-
-
-
-
-.fade-enter {
-    opacity: 0.01;
+.header-info{
+  background: rgba(31, 31, 59, 0.5);
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 10%;
+  display: block;
 }
 
-.fade-enter.fade-enter-active {
-    opacity: 1;
-    transition: opacity 300ms ease-in;
-}
-
-.fade-exit {
-    opacity: 1;
-}
-
-.fade-exit.fade-exit-active {
-    opacity: 0.01;
-    transition: opacity 300ms ease-in;
-}
+/*186, 168, 237*/

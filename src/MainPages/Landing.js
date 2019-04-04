@@ -7,6 +7,7 @@ export default class LandingPage extends React.Component{
       <div>
       <Nav />
       <div className="landing-page">
+      <div className="header-info">
       <h1> Christine Gomez</h1>
       <h3>FullStack Developer</h3>
       <div className="links">
@@ -22,6 +23,7 @@ export default class LandingPage extends React.Component{
       <a href="https://medium.com/@christine.gomez1226" className="link">
       <i className="medium icon"></i>
       </a>
+      </div>
       </div>
       </div>
       </div>
