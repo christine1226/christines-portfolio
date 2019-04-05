@@ -15,6 +15,7 @@ export default class Contact extends React.Component{
             <input name="email"></input>
             <textarea name="message"></textarea>
             <br />
+            < a href="mailto:christine.gomez1226@gmail.com" target="_top">this</a>
             <button value='Send'>Submit</button>
             <div>
             <a href="https://www.linkedin.com/in/christine-gomez/" className="link">

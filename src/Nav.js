@@ -16,7 +16,7 @@ class Nav extends React.Component{
           <a className="item" href='/projects'>
             Projects
           </a>
-          <a className="item" href='/contact'>
+          <a className="item" href="mailto:christine.gomez1226@gmail.com" target="_top">
             Contact
           </a>
           </div>
