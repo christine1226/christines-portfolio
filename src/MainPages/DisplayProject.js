@@ -2,75 +2,26 @@ import React from 'react'
 import Nav from '../Nav'
 
 export default class DisplayProject extends React.Component{
-  nextPage = (e) => {
+    nextPage = (e) => {
     let n = this.props.location.id
-    if(n === 1){
-      this.props.history.push(
-        {pathname: '/project',
-        id: 2,
-        title: 'Sea Learner',
-        vid: 'https://www.youtube.com/embed/y-aZkFSJ6pU',
-        info: "This is what sea learners is about",
-        technologies: ['Redux', 'React', 'CSS', 'Semantic UI', 'Speech Recognition Webkit', 'Speech Synthesis Webkit', 'Backend: Ruby on Rails'],
-        github: 'https://github.com/christine1226/SeaCards'})
+    if(n !== 4){
+    this.props.history.push(`/project/${n+1}`)
     }
-    else if(n === 2){
-      this.props.history.push(
-        {pathname: '/project',
-        id: 3,
-        title: 'NYC Event Manager (Lituation)',
-        vid: 'https://www.youtube.com/embed/C_GogFbJeCc',
-        info: "This is what Lituation is about",
-        technologies: ['Ruby', 'CSS', 'Backend: Ruby on Rails'],
-        github: 'https://github.com/christine1226/lituation'})
-    }
-    else if(n === 3){
-      this.props.history.push(
-        {pathname: '/project',
-        id: 4,
-        title: 'Boozer',
-        vid: '../image/boozer.png',
-        info: "This is what Boozer is about",
-        technologies: ['React', 'CSS', 'Semantic UI', 'Backend: Ruby on Rails'],
-        github: 'https://github.com/christine1226/boozer-react'})
-    }
+    else if(n === 4){
+        this.props.history.push('/project/1')
+      }
   }
 
   prevPage = (e) => {
     let n = this.props.location.id
-    if(n === 2){
-      this.props.history.push(
-        {pathname: '/project',
-        id: 1,
-        title: 'Bink',
-        vid: '../image/blink.png',
-        info: "This is what blink is about",
-        technologies: ['Vanilla JS', 'CSS', 'Backend: Ruby on Rails'],
-        github: 'https://github.com/christine1226/mod3_project'})
+    if(n !== 1){
+    this.props.history.push(`/project/${n-1}`)
     }
-    else if(n === 3){
-      this.props.history.push(
-        {pathname: '/project',
-        id: 2,
-        title: 'Sea Learner',
-        vid: 'https://www.youtube.com/embed/y-aZkFSJ6pU',
-        info: "This is what sea learners is about",
-        technologies: ['Redux', 'React', 'CSS', 'Semantic UI', 'Speech Recognition Webkit', 'Speech Synthesis Webkit', 'Backend: Ruby on Rails'],
-        github: 'https://github.com/christine1226/SeaCards'})
-    }
-    else if(n === 4){
-      this.props.history.push(
-        {pathname: '/project',
-        id: 3,
-        title: 'NYC Event Manager (Lituation)',
-        vid: 'https://www.youtube.com/embed/C_GogFbJeCc',
-        info: "This is what Lituation is about",
-        technologies: ['Ruby', 'CSS', 'Backend: Ruby on Rails'],
-        github: 'https://github.com/christine1226/lituation'})
-    }
+    else if(n === 1){
+        this.props.history.push('/project/4')
+      }
   }
   render(){
-    console.log(this.props.location.id)
     return(
       <div>
         <Nav />
