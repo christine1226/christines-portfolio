@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     title: 'Blink',
-    vid: '../image/blink.png',
+    vid: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsB9IjIwgSusAkVAYxQF6CAs_6-RGeqM59Kq4G88zKcDyfNBNb',
     info: "Blink, similar to Simon, tests a users ability to follow the pattern as a tile lights up in a random order.",
     technologies: ['Vanilla JS', 'CSS', 'Backend: Ruby on Rails'],
     github: 'https://github.com/christine1226/mod3_project'

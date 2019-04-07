@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from '../Nav'
 import {withRouter} from 'react-router'
+import '../css/project.css'
 
   class Projects extends React.Component{
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../Nav'
+import '../css/display-proj.css'
 
 export default class DisplayProject extends React.Component{
     nextPage = (e) => {

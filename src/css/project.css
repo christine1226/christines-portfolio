@@ -1,0 +1,76 @@
+/* background for project and contact component */
+.projects{
+  height:970px;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(to bottom right, rgba(27, 31, 45, 0.5), rgba(27, 31, 45, 0.5)), url("../image/background.jpg");
+  background-color: #d8d6d2;
+  font: black;
+}
+/* Project headers and labels*/
+.projects h1{
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 80px;
+  font-weight: bold;
+  font-size: 75px;
+  color: #f9d6ed;
+}
+.projects h2{
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 55px;
+  font-weight: bold;
+  font-size: 75px;
+  color: #f9d6ed;
+}
+
+/*project squares */
+.proj1{
+  width: 22%;
+  height: 35%;
+  margin-left: 35px;
+  display: inline-block;
+  border: solid;
+  border-color: #f9d6ed;
+  margin-top: 110px;
+  transition: 0.2s;
+  text-align: center;
+  background-color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.proj1:hover{
+  border-color: #1F1F3B;
+  color: #f9d6ed;
+  font-size: 17px;
+  text-align: center;
+  background-color: #1F1F3B;
+}
+.blink{
+  height: 95%;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../image/blink.png");
+}
+.sea{
+  height: 95%;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../image/sea.png");
+}
+.lit{
+  height: 95%;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../image/lit.png");
+}
+.boozer{
+  height: 95%;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../image/boozer.png");
+}

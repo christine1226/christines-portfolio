@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../Nav'
+import '../css/about.css'
 
 class AboutMe extends React.Component{
 
@@ -12,7 +13,7 @@ class AboutMe extends React.Component{
       <div className="about">
           <div className="columns1">
             <h2>Christine Gomez</h2>
-            <img src={ require("../image/selfie.png")} height="250px" width="200px" alt="" />
+            <img src={ require("../image/selfie.png")} height="280px" width="240px" alt="" />
           </div>
           <div className="columns2">
             <br/>

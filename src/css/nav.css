@@ -1,0 +1,11 @@
+/*Nav bar colors and adjustments*/
+.ui.secondary.pointing.menu{
+height: 50px!important;
+}
+.ui.secondary.pointing.menu a{
+  font-size: 15px;
+  color: #f9d6ed!important;
+}
+.ui.secondary.pointing.menu a:hover{
+  color: #1F1F3B!important;
+}
