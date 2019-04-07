@@ -22,21 +22,29 @@ export default class DisplayProject extends React.Component{
       }
   }
   render(){
+      let technologies = this.props.location.technologies.map(tech => <li>{tech}</li>)
     return(
       <div>
         <Nav />
         <div className='proj-container'>
+        <div className='proj-display'>
         <h1>{this.props.location.title}</h1>
-        <div className='vid'>
-          <iframe title='a' src={this.props.location.vid} height="500" width="700" />}
-        </div>
-        <p>{this.props.location.info}</p>
         <a href={this.props.location.github}>Github Link</a>
+        <div className='vid'>
+          <iframe title='a' src={this.props.location.vid} height="400" width="600" />
+        </div>
+        <div className='info'>
+        <p className='column'>{this.props.location.info}</p>
         <br/>
-        <img alt='' height='100' width='100' onClick={this.prevPage}
+        <ul className='column'>
+        {technologies}
+        </ul>
+        <img className='right' alt='' height='100' width='100' onClick={this.prevPage}
         src='https://media.giphy.com/media/9DctaP97smX4SyYjwR/giphy.gif' />
-        <img alt='' height='100' width='100' onClick={this.nextPage}
+        <img className='left' alt='' height='100' width='100' onClick={this.nextPage}
         src='https://media.giphy.com/media/9DctaP97smX4SyYjwR/giphy.gif' />
+        </div>
+        </div>
         </div>
       </div>
     )

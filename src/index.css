@@ -34,10 +34,12 @@
   grid-auto-rows: 700px;
 }
 .columns1{
-  border: solid;
+  /* border: solid; */
   border-width: 8px;
-  border-color: white;
-  background-color: #f9d6ed;
+  /* border-color: white; */
+  /* background-color: #f9d6ed; */
+  background: rgba(31, 31, 59, 0.5);
+  display: block;
   margin-top: 12em;
   margin-left: 21em;
   padding-right: 10em;
@@ -53,20 +55,24 @@
   font-size: 35px;
 }
 .columns1 img{
+  border: solid;
+  border-color: #f9d6ed;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .columns2{
-  border: solid;
-  border-color: white;
-  background-color: white;
+  /* border: solid; */
+  /* border-color: white; */
+  /* background-color: white; */
+  background: rgba(31, 31, 59, 0.5);
+  display: block;
   margin-top: 12em;
   margin-right: 21em;
   padding: 3.4em;
   padding-bottom: 12.5em;
   text-align: center;
-  color: gray;
+  color: #f9d6ed;;
 }
 
 /* background for project and contact component */
@@ -222,13 +228,20 @@ button:focus{
 .proj-container h1{
   text-align: center;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: .3em;
   color: #f9d6ed;
 }
 .proj-container p{
   text-align: center;
   padding-top: 1em;
   color: #f9d6ed;
+  grid-area: info;
+}
+.proj-container ul{
+  padding-top: 2em;
+  color: #f9d6ed;
+  grid-area: list;
+  text-align: left;
 }
 /* project video */
 .vid iframe{
@@ -241,14 +254,34 @@ button:focus{
 }
 
 /* arrows to get through each project page*/
-.proj-container > img:nth-child(even){
+.right{
+  grid-area: arrowleft;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
-  margin-right: 2em;
+  margin-left: 16em;
+}
+.left{
+  grid-area: arrowright;
+}
+.proj-display{
+  background: rgba(31, 31, 59, 0.5);
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: auto;
+  display: block;
+}
+
+.info{
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: 30% 20% 20% 30%;
+  grid-gap: 1em;
+  grid-template-areas: "arrowleft list info arrowright"
 }
 
 /*Nav bar colors and adjustments*/
