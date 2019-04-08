@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     title: 'Blink',
-    vid: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsB9IjIwgSusAkVAYxQF6CAs_6-RGeqM59Kq4G88zKcDyfNBNb',
+    vid: 'https://goodideajohng.files.wordpress.com/2013/03/file-not-found.jpg?w=640',
     info: "Blink, similar to Simon, tests a users ability to follow the pattern as a tile lights up in a random order.",
     technologies: ['Vanilla JS', 'CSS', 'Backend: Ruby on Rails'],
     github: 'https://github.com/christine1226/mod3_project'
@@ -26,7 +26,7 @@ const projects = [
   {
     id: 4,
     title: 'Boozer',
-    vid: './image/blink.png',
+    vid: 'https://goodideajohng.files.wordpress.com/2013/03/file-not-found.jpg?w=640',
     info: "Boozer is an app used to display drink recipes. Boozer incorporates a dynamic form to share new drink recipes.",
     technologies: ['React', 'CSS', 'Semantic UI', 'Backend: Ruby on Rails'],
     github: 'https://github.com/christine1226/boozer-react'
