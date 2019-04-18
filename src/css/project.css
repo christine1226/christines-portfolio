@@ -50,25 +50,25 @@
   text-align: center;
   background-color: #1F1F3B;
 }
-.blink{
+.Blink{
   height: 95%;
   background-position: center center;
   background-size: cover;
   background-image: url("../image/blink.png");
 }
-.sea{
+.Sea{
   height: 95%;
   background-position: center center;
   background-size: cover;
   background-image: url("../image/sea.png");
 }
-.lit{
+.Lit{
   height: 95%;
   background-position: center center;
   background-size: cover;
   background-image: url("../image/lit.png");
 }
-.boozer{
+.Boozer{
   height: 95%;
   background-position: center center;
   background-size: cover;

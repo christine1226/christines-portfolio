@@ -23,6 +23,7 @@ export default class DisplayProject extends React.Component{
       }
   }
   render(){
+    console.log(this.props)
       let technologies = this.props.location.technologies.map(tech => <li>{tech}</li>)
     return(
       <div>
