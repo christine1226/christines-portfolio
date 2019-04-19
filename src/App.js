@@ -22,7 +22,7 @@ class App extends Component {
           <Route exact path="/" component={LandingPage} />
           <Route path ="/bio" component={AboutMe} />
           <Route path="/projects" component={Projects} />
-          <Route exact path="/project/1" render={(props) => <DisplayProject {...props} location={this.state.projects[0]} />} />
+          <Route exact path='/project/1' render={(props) => <DisplayProject {...props} location={this.state.projects[0]} />} />
           <Route exact path="/project/2" render={(props) => <DisplayProject {...props} location={this.state.projects[1]} />} />
           <Route exact path="/project/3" render={(props) => <DisplayProject {...props} location={this.state.projects[2]} />} />
           <Route exact path="/project/4" render={(props) => <DisplayProject {...props} location={this.state.projects[3]} />} />

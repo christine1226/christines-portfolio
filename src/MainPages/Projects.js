@@ -11,21 +11,6 @@ import AllProjects from '../proj-data'
       proj: AllProjects
     }
 
-    // projectClicked = (e) => {
-    //   if(e.target.className === "blink"){
-    //     this.props.history.push('/project/1')
-    //   }
-    //   else if(e.target.className === "sea"){
-    //     this.props.history.push('/project/2')
-    //   }
-    //   else if(e.target.className === "lit"){
-    //     this.props.history.push('/project/3')
-    //   }
-    //   else if(e.target.className === "boozer"){
-    //     this.props.history.push('/project/4')
-    //   }
-    // }
-
     clicked = (e) =>{
       this.state.proj.map((projObj) => {
         if(projObj.title.includes(e.target.className)){
@@ -36,7 +21,6 @@ import AllProjects from '../proj-data'
 
 
   render(){
-    // console.log(AllProjects)
     return(
       <div>
         <Nav />
