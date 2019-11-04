@@ -12,7 +12,7 @@ class AboutMe extends React.Component{
       <h1>About Me....</h1>
       <div className="about">
           <div className="columns1">
-            <h2>Christine Gomez</h2>
+            <h2>Christine</h2>
             <img src={ require("../image/selfie.png")} height="280vh" width="240vw" alt="" />
           </div>
           <div className="columns2">
