@@ -33,7 +33,7 @@ export default class DisplayProject extends React.Component{
         <h1>{this.props.location.title}</h1>
         <a href={this.props.location.github}>Github Link</a>
         <div className='vid'>
-          <iframe title='a' src={this.props.location.vid} height="400" width="600" />
+          <iframe title='a' src={this.props.location.vid} height="400vh" width="600vw" />
         </div>
         <div className='info'>
         <p className='column'>{this.props.location.info}</p>
