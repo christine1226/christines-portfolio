@@ -1,6 +1,6 @@
 /* About me Page */
 .about-page {
-  height: 970px;
+  height: 970vw;
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
@@ -9,12 +9,12 @@
 }
 /* About me page header*/
 .about-page h1{
-  font-size: 6em;
+  font-size: 10vh;
   font-weight: bold;
   text-align: center;
   color: #f9d6ed;
-  margin-bottom: -2.0em;
-  padding-top: 1em;
+  margin-bottom: -2.0vh;
+  padding-top: 1vh;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -29,30 +29,28 @@
 /* grid on about me page and additional specifications for columns*/
 .about{
   display: grid;
-  grid-template-columns: 50% 50%;
-  /* grid-gap: 2em; */
-  grid-auto-rows: 700px;
+  grid-template-columns: 50vw 50vw;
+  grid-auto-rows: 700vw;
 }
 .columns1{
-  /* border: solid; */
-  border-width: 8px;
-  /* border-color: white; */
-  /* background-color: #f9d6ed; */
+  border-width: 8vw;
+  height: 70vh;
   background: rgba(31, 31, 59, 0.5);
   display: block;
-  margin-top: 12em;
-  margin-left: 21em;
-  padding-right: 8em;
-  padding-left: 9em;
+  margin-top: 5vh;
+  margin-left: 19vw;
+  padding-right: 7vw;
+  padding-left: 7vw;
+  margin-bottom: 10vh;
 }
 
 .columns1 h2{
-  padding-top: 1.5em;
+  padding-top: 7vh;
   margin-bottom: 1em;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #f9d6ed;
   text-align: center;
-  font-size: 3.2em;
+  font-size: 6vh;
 }
 .columns1 img{
   border: solid;
@@ -62,16 +60,18 @@
   margin-right: auto;
 }
 .columns2{
-  /* border: solid; */
-  /* border-color: white; */
-  /* background-color: white; */
   background: rgba(31, 31, 59, 0.5);
+  height: 70vh;
   display: block;
-  margin-top: 10em;
-  margin-right: 20em;
-  padding: 3em;
-  padding-bottom: 12em;
-  /* text-align: center; */
+  margin-top: 5vh;
+  padding-top: 1vh;
+  margin-right: 20vw;
+  padding-right: 2vw;
+  margin-bottom: 10vh;
   color: #f9d6ed;
-  font-size: 1.2em;
+  font-size: 2.5vh;
+}
+
+.column2 p{
+  text-align: center;
 }

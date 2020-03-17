@@ -1,6 +1,6 @@
 /* individual project display page*/
 .proj-container{
-  height: 970px;
+  height: 970vh;
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
@@ -9,22 +9,23 @@
 }
 .proj-container{
   text-align: center;
-  padding: 2em;
+  padding: 10vh;
 }
 .proj-container h1{
   text-align: center;
-  padding-top: 1em;
-  padding-bottom: .3em;
+  padding-top: 4vh;
+  padding-bottom: .3vh;
   color: #f9d6ed;
 }
 .proj-container p{
   text-align: center;
-  padding-top: 1em;
+  padding-top: 1vh;
   color: #f9d6ed;
   grid-area: info;
 }
 .proj-container ul{
-  padding-top: 2em;
+  padding-top: 2vh;
+  margin-left: -2vw;
   color: #f9d6ed;
   grid-area: list;
   text-align: left;
@@ -48,16 +49,16 @@
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
-  margin-left: 16em;
+  margin-left: 15vw;
 }
 .left{
   grid-area: arrowright;
 }
 .proj-display{
   background: rgba(31, 31, 59, 0.5);
-  margin-top: 3%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-top: 3vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
   margin-bottom: auto;
   display: block;
 }

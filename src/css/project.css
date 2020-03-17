@@ -1,6 +1,6 @@
 /* background for project and contact component */
 .projects{
-  height:970px;
+  height:970vh;
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
@@ -14,39 +14,39 @@
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
   padding-top: 80px;
-  font-size: 6em;
+  font-size: 12vh;
   font-weight: bold;
   color: #f9d6ed;
 }
 .projects h2{
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 55px;
+  padding-top: 55vh;
   font-weight: bold;
-  font-size: 75px;
+  font-size: 75vh;
   color: #f9d6ed;
 }
 
 /*project squares */
 .proj1{
-  width: 22%;
-  height: 35%;
-  margin-left: 35px;
+  width: 22vw;
+  height: 35vh;
+  margin-left: 1vw;
   display: inline-block;
   border: solid;
   border-color: #f9d6ed;
-  margin-top: 110px;
+  margin-top: 10vh;
   transition: 0.2s;
   text-align: center;
   background-color: white;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 16px;
+  font-size: 1.5vh;
   font-weight: bold;
 }
 .proj1:hover{
   border-color: #1F1F3B;
   color: #f9d6ed;
-  font-size: 17px;
+  font-size: 2vh;
   text-align: center;
   background-color: #1F1F3B;
 }
